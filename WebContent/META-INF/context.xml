@@ -1,0 +1,15 @@
+<Context>
+ 
+  <Resource name="jdbc/project" 
+  
+  			auth="Container" type="javax.sql.DataSource"
+  			
+               maxActive="25" maxIdle="10" maxWait="10000"
+               
+               username="root" password="root" 
+               
+               driverClassName="com.mysql.cj.jdbc.Driver"
+               
+               url="jdbc:mysql://127.0.0.1:3306/football_prediction?useSSL=false"/>
+ 
+</Context>
